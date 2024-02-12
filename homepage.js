@@ -27,6 +27,15 @@ window.onload = function () {
 
   // images from http://www.hdwallpapers.in
   var urls = [
+      "WhatsApp Image 2024-02-12 at 23.48.18.jpeg"
+      "WhatsApp Image 2024-02-12 at 23.48.17.jpeg"
+      "WhatsApp Image 2024-02-12 at 23.48.17 (2).jpeg"
+      "WhatsApp Image 2024-02-12 at 23.48.17 (1).jpeg"
+      "WhatsApp Image 2024-02-12 at 23.48.16.jpeg"
+      "WhatsApp Image 2024-02-12 at 23.48.16 (1).jpeg"
+      "WhatsApp Image 2024-02-12 at 23.48.16 (2).jpeg"
+      "WhatsApp Image 2024-02-12 at 23.48.15.jpeg"
+    
       "WhatsApp Image 2023-12-25 at 15.49.32.jpeg",
       "WhatsApp Image 2023-12-25 at 15.49.33 (1).jpeg",
       "WhatsApp Image 2023-12-25 at 15.49.33 (2).jpeg",
@@ -39,7 +48,7 @@ window.onload = function () {
   images[0] = image = new Image();
   image.onload = function () {
     if (++loaded === 1) {
-      for (var i = 1; i < 5; i++) {
+      for (var i = 1; i < 13; i++) {
         images[i] = image = new Image();
 
         image.src = urls[i];
